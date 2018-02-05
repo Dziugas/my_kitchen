@@ -156,3 +156,51 @@ function changeColour(){
 
 setInterval(changeColour, 2000);
 
+
+
+$(document).ready(function(){    
+    $("input").focus(function(){
+        $(this).css("outline-color", "rebeccapurple");     
+    });
+});
+
+$(document).ready(function(){    
+    $("#morka").draggable({ revert: "valid" });
+    $("#zuikis").droppable({
+        classes: {
+        "ui-droppable-active": "ui-state-active"
+      },
+        drop: function(event, ui){
+            $(".morkine").css("width", "20px");
+            $(".morkine").css("border-bottom-right-radius", "0%");
+            $(".morkine").css("border-top-right-radius", "0%");            
+            $("#usai").effect("bounce", {times:5}, "slow");            
+        } 
+    }) 
+});
+
+
+
+
+/* ZUIKIO JUDINIMAS
+
+    $(document).ready(function(){
+    $("#zuikis").draggable(); 
+});
+*/
+
+$(document).ready(function(){    
+    $("#resizable").resizable();
+});
+                  
+                  
+
+    
+
+
+
+
+
+
+
+

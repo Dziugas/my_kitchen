@@ -36,9 +36,6 @@ h1:hover{
 }
 
 
-
-
-
 #button{
     display: inline-block;
     background-color: rebeccapurple;
@@ -106,3 +103,205 @@ h1:hover{
 #video:hover{
     transform:rotate(3deg);
 }
+
+#resizable{
+    display: block;
+    text-align: center;
+    margin: auto;
+    background-color: aquamarine;
+    height:200px;
+    width:200px;
+}
+
+.morkine{
+    display: inline-block;
+    width: 160px;
+    height:35px;
+    background-color: orange;
+    border-top-left-radius: 15%;
+    border-bottom-left-radius: 15%;
+    border-bottom-right-radius: 45%;
+    border-top-right-radius: 45%;
+    border: solid black;    
+}
+
+.zalia{
+    display:inline-block;
+    height:40px;
+    width: 40px;
+    background-color: darkgreen;
+    transform: rotate(29deg);
+    margin: 7px;
+}
+
+#morka{
+    display: inline-block;
+    background-color: rgba(0,0,0,0);
+    transform: rotate(17deg);
+    margin-right: 100px;
+    z-index: 1;
+}
+
+#zuikis{
+    display: inline-block;
+    background-color: rgba(0,0,0,0);
+    
+}
+
+#kunas{
+    height: 120px;
+    width: 160px;
+    background-color: lightslategray;
+    border-top-right-radius: 65%;
+    border-bottom-left-radius: 65%;
+    border-top-left-radius: 45%;
+    position: relative;
+    top: -20px;
+}
+
+#uzpakalineletenele{
+    width:60px;
+    height: 20px;
+    background-color: darkslategray;
+    border-top-right-radius:45%;
+    border-top-left-radius: 90%;
+    position: relative;
+    top: -107px;
+    left: 90px;  
+}
+
+#priekineletenele{    
+    background-color:darkslategray;
+    width: 45px;
+    height: 17px;
+    border-top-left-radius: 25%;
+    border-top-right-radius: 25%;
+    border-bottom-left-radius: 45%;
+    border-bottom-right-radius:25%;
+    transform: rotate(-45deg);
+    position: relative;
+    top: -45px;
+    left: 15px;
+    
+}
+
+#galva{
+    background-color:lightgray;
+    width: 80px;
+    height: 80px;
+    border-top-left-radius: 65%;
+    border-top-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius:45%;
+    position: relative;
+    top: 40px;
+    left: -35px;
+    transform: rotate(5deg);
+}
+
+#ausis{
+    background-color:darkslategray;
+    width: 20px;
+    height: 80px;    
+    border-top-left-radius: 65%;
+    border-top-right-radius: 25%;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius:45%;
+    position: relative;
+    top:  45px;
+    left: 37px;
+    transform: rotate(15deg);    
+}
+
+#akis{
+    background-color:black;
+    width: 12px;
+    height: 12px;    
+    border-radius: 50%;
+    position: relative;
+    top:  -17px;
+    left: 7px;
+}
+
+#usai{
+    position: relative;
+    top:  -5px;
+    left: -115px;
+    z-index: 1px;
+}
+
+#uodega{
+    height: 50px;
+    width: 30px;
+    background-color: lightgrey;
+    border-top-left-radius: 45%;
+    border-top-right-radius: 45%;
+    border-bottom-right-radius: 45%;
+    transform:rotate(5deg);
+    position: relative;
+    top: -87px;
+    left: 164px;
+}
+
+
+/* Media Queries */
+
+@media screen and (max-width:800px){
+    #morka{
+        margin: 60px; 
+    } 
+}
+
+@media screen and (max-width:600px){
+    #morka{
+        transform: rotate(60deg);
+        margin: 22px;
+    } 
+}
+
+@media screen and (max-width:450px){
+    #morka{
+        transform: rotate(60deg);
+        margin: 0px;
+    } 
+    .morkine{
+        width: 120px;
+        height: 27px;
+    }
+    
+    .zalia{
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width:360px){
+    
+    .morkine{
+        width: 90px;
+        height: 20px;
+    }
+    
+    .zalia{
+        width: 22px;
+        height: 22px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
