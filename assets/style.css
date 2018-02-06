@@ -7,13 +7,8 @@ body{
     background-color: lightgreen;
 }
 
-#name1 {
-    display: block;
-    text-align: center;
-}
-
 h1{
-    transition: 2s;
+    transition: 5s;
     font-size: 40px;
 }
 
@@ -21,13 +16,13 @@ h1:hover{
     background-color: rebeccapurple;
 }
 
-#headingas{
+#heading{
     display: block;
     transition: 2s;
 }
 
-#headingas:hover{
-    transform: translateX(290px);
+#heading:hover{
+    transform: translateX(10%);
 }
 
 #wrapper{
@@ -52,7 +47,6 @@ h1:hover{
 #postas1{
     display: inline-block;
     float: left;
-    margin: 20px;
     width: 400px;
     height: 400px;
     border: 1px solid;
@@ -60,13 +54,7 @@ h1:hover{
 }
 
 
-#postas2 {
-    display: inline-block;
-    float:left;
-    margin: 20px;
-    width: 400px;
-    height: 500px;
-}
+
 
 #tekstas1{
     display: block;
@@ -83,7 +71,7 @@ h1:hover{
 #tekstas1.open{
     max-height: 1000px;
 }
-
+/*
 #postas3 {
     display: inline-block;
     float:left;
@@ -94,15 +82,7 @@ h1:hover{
     width: 400px;
     height: 500px;
 }
-
-#video{
-    display: block;
-    transition: 1s;
-}
-
-#video:hover{
-    transform:rotate(3deg);
-}
+*/
 
 #resizable{
     display: block;
