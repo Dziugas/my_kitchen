@@ -2,61 +2,94 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Receptai</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>My Kitchen</title>
     <link href='//fonts.googleapis.com/css?family=Federo' rel='stylesheet'>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="static/style.css">
 </head>
 <body>
-<h1>
-    <a id="headingas">
-        DAKTARO IVANAUSKO VALGYKLA
-    </a>
-</h1>
+
+<div class="container-fluid jumbotron jumbotron-fluid">
+    <h1>
+        <a id="heading">
+            PROFESORIAUS IVANAUSKO VALGYKLA
+        </a>
+    </h1>
+</div>
+
+<div class="container">
+    <div id="morka" class="ui-widget-content">
+        <div class="zalia"></div>
+        <div class="morkine"></div>
+    </div>
+
+    <div id="zuikis" class="ui-widget-header">
+        <div id="ausis"></div>
+        <div id="galva"></div>
+        <div id="akis"></div>
+        <div id="usai">><</div>
+        <div id="kunas"></div>
+        <div id="priekineletenele"></div>
+        <div id="uodega"></div>
+        <div id="uzpakalineletenele"></div>
+    </div>
+</div>
 
 <br>
 <br>
-<div id="wrapper">
-    <div id="postas1">
-        <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fbonappetitmag%2Fvideos%2F10158489812195367%2F&width=500&show_text=false&height=500&appId" width="400" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true">
-        </iframe>
-    </div>
-    <div id="postas2">
-        <div id="tekstas1">
-        <a id="name1">Sveikuoliškas tortas „Moka“</a>
-        <p>Tai dar vienas unikalus
-            torto receptas,
-            kurį drąsiai galima priskirti receptų
-            „valgau desertus be sąžinės graužaties“
-            kolekcijai. Jį pagaminsite be miltų ir cukraus.
-            Be to, jo nereikės kepti.</p>
-        <p>Maisto smulkintuvu sumalkite migdolus ir saulėgrąžas,
-            tik ne iki vientisos masės. Sumaišykite su datuliu
-            pasta ir kokosų aliejumi. Išklokite skardelę taip,
-            kad išeitų pagrindas pyragui, maždaug 1–1,5 cm storio.
-            Pagaminkite įdarą. Elektriniu trintuvu sumalkite
-            anakardžius su vandeniu.
-            Įpilkite vandens, tiek,
-            kad juos apsemtų. Suplakite iki vientisos masės. I
-            štirpinkite kokosų aliejų. Tuomet sudėti likusius
-            ingredientus ir dar kartą sutrinkite. Gautą vienal
-            ytę masę supilkite ant pyrago pagrindo ir palikite
-            šaldiklyje 2–3 val. Prieš patiekiant galima apibarst
-            yti kakavos milteliais, papuošti mėtų lapeliais, džiovintomis uogomis.</p>
-        <p>
-            <a href="http://www.delfi.lt/maistas/sveika/nepatikesite-kad-tai-imanoma-sveikuoliskas-tortas-moka.d?id=74374450" target="_blank">Skaityti daugiau </a>
-        </p>
+<div class="container">
+
+    <div class="row">
+        <div class="col-4 m-0" id="postas1">
+            <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fbonappetitmag%2Fvideos%2F10158489812195367%2F&width=500&show_text=false&height=500&appId"
+                    width="auto" height="300px" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                    allowTransparency="true">
+            </iframe>
         </div>
-        <a id="button">Show More</a>
+        <div class="col-4 m-0" id="postas2">
+            <div id="tekstas1">
+                <p>Sveikuoliškas tortas „Moka“</p>
+                <p>Tai dar vienas unikalus
+                    torto receptas,
+                    kurį drąsiai galima priskirti receptų
+                    „valgau desertus be sąžinės graužaties“
+                    kolekcijai. Jį pagaminsite be miltų ir cukraus.
+                    Be to, jo nereikės kepti.</p>
+                <p>Maisto smulkintuvu sumalkite migdolus ir saulėgrąžas,
+                    tik ne iki vientisos masės. Sumaišykite su datuliu
+                    pasta ir kokosų aliejumi. Išklokite skardelę taip,
+                    kad išeitų pagrindas pyragui, maždaug 1–1,5 cm storio.
+                    Pagaminkite įdarą. Elektriniu trintuvu sumalkite
+                    anakardžius su vandeniu.
+                    Įpilkite vandens, tiek,
+                    kad juos apsemtų. Suplakite iki vientisos masės. I
+                    štirpinkite kokosų aliejų. Tuomet sudėti likusius
+                    ingredientus ir dar kartą sutrinkite. Gautą vienal
+                    ytę masę supilkite ant pyrago pagrindo ir palikite
+                    šaldiklyje 2–3 val. Prieš patiekiant galima apibarst
+                    yti kakavos milteliais, papuošti mėtų lapeliais, džiovintomis uogomis.</p>
+                <p>
+                    <a href="http://www.delfi.lt/maistas/sveika/nepatikesite-kad-tai-imanoma-sveikuoliskas-tortas-moka.d?id=74374450"
+                       target="_blank">Skaityti daugiau </a>
+                </p>
+            </div>
+            <a id="button">Show More</a>
+        </div>
+
+        <div class="col-4 m-0" id="postas3">
+        </div>
     </div>
-    <div id="postas3">
-    </div>
+
 </div>
 
 
 <form action="/form.php" method="post">
-
     Žinai, kaip praturtinti Ivanausko valgyklos blogą? Duokš idėjas!<br><br>
     Tavo vardas<br>
+
     <input type="text" name="name"><br>
     Tavo pavardė<br>
     <input type="text" name="surname"><br>
@@ -70,17 +103,19 @@
     <input type="submit" value="Priduoti">
 </form>
 
-
-
-
 <br>
 <br>
-<iframe src="http://www.beatosvirtuve.lt/" height="400" width="800">
-</iframe>
 
+<!--    
+ <div id="resizable" class="ui-widget-content">
+    </div>
 
-<a id="video" href="https://www.facebook.com/bonappetitmag/videos/10158489812195367/" target="_blank">Čia kreivas tekstas</a>
 <br>
+<br>    
+    <iframe  src="http://www.beatosvirtuve.lt/" height="400px" width="400px"></iframe>
+    
+-->
+
 <a href="http://delfi.lt" id="link1">Link1</a>
 <a href="http://delfi.lt">Link2</a>
 <a href="http://delfi.lt">Link3</a>
@@ -88,6 +123,17 @@
 <a href="http://delfi.lt">Link5</a>
 <a href="http://delfi.lt">Link6</a>
 
-    <script src="static/test.js"></script>
+<script type="text/javascript" src="static/jquery-3.2.1.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script type="text/javascript" src="static/test.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 </html>
